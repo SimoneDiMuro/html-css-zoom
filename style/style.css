@@ -5,7 +5,6 @@
 }
 
 header{
-    position: fixed;
     width: 100%;
     height: 100px;
     background-color: black;
@@ -25,7 +24,16 @@ header{
 }
 
 .container{
-    max-width: 1200px;
     display: flex;
-    height: 100vh;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.item{
+    margin-top: 10px;
+}
+
+.nav{
+    display: flex;
+
 }
