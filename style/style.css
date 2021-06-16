@@ -26,14 +26,30 @@ header{
 .container{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    height: calc(100% - 200px);
 }
 
 .item{
-    margin-top: 10px;
+    margin: 10px;
+    position: relative;
+    height: 146px;
+    width: 246px;
+    
+}
+
+.partecipant{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    color: white;
 }
 
 .nav{
     display: flex;
-
+    height: 100px;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
 }
+
