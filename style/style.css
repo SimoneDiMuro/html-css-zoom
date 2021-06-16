@@ -50,8 +50,7 @@ footer{
     color: white;
     height: 80px;
     display: flex;
-    justify-content: flex-start;
-    
+    justify-content: space-between;
 }
 
 .nav{
@@ -70,3 +69,20 @@ footer{
 
 }
 
+.left{
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.center{
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.right{
+    display: flex;
+    justify-content: flex-start;
+
+}
