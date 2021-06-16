@@ -26,7 +26,8 @@ header{
 .container{
     display: flex;
     flex-wrap: wrap;
-    height: calc(100% - 200px);
+    height: calc(100vh - 180px);
+    overflow-y: scroll;
 }
 
 .item{
@@ -44,12 +45,28 @@ header{
     color: white;
 }
 
-.nav{
+footer{
+    background-color: black;
+    color: white;
+    height: 80px;
     display: flex;
-    height: 100px;
+    justify-content: flex-start;
+    
+}
+
+.nav{
     background-color: black;
     color: white;
     justify-content: space-between;
+}
+
+.icon{
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
     align-items: center;
+    padding: 5px;
+
 }
 
